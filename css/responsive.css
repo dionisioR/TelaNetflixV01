@@ -1,0 +1,19 @@
+/*até o comprimento máximo de 700 px ele assume esse layout*/
+@media screen and (max-width:700px){  
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+/*Enquanto for menor que 1000px ele vai aplicar o layout descrito a seguir*/
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
